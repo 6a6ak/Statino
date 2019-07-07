@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include "DHT.h"
 DHT dht;
-const char* ssid = "VIPauto";
-const char* password = "Hedstrom2215";
+const char* ssid = "SSID";
+const char* password = "Password";
 int bluePin = D1;
 int  bluevalue;
 WiFiServer server(80);
