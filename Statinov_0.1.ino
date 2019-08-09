@@ -3,6 +3,7 @@
 DHT dht;
 const char* ssid = "SSID";
 const char* password = "Password";
+const char* host = "http://192.168.0.23";
 int bluePin = D1;
 int  bluevalue;
 WiFiServer server(80);
